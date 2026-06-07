@@ -1,0 +1,32 @@
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Build artifacts
+*/build/
+build/
+*.apk
+*.aar
+*.bundle
+
+# Android Specific
+local.properties
+.gradle/
+.kotlin/
+captures/
+.externalNativeBuild
+.cxx/
+*.keystore
+!debug.keystore
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Other
+node_modules/
+.expo/
